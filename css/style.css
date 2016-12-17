@@ -1,0 +1,11 @@
+.top-padding{
+    margin-top: 60px;
+}
+.thumbnail{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.image-header{
+    width: 100%;
+}
