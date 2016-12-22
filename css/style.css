@@ -1,11 +1,195 @@
+/* body */
+body{
+    background-image: url(../images/grundge1a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
 .top-padding{
     margin-top: 60px;
 }
-.thumbnail{
-    width: 150px;
-    height: 150px;
-    float: left;
+.grid-box{
+    border: 1px solid rgba(83,45,80,0.7);
 }
+
+
 .image-header{
     width: 100%;
 }
+
+/* navbar */
+.navbar-nav>li>a, .navbar-brand{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    transition: all 0.8s linear 0s;
+}
+.navbar-nav>li>a:hover{
+    background-color: rgba(255,255,255,0.9);
+    color: #000;
+}
+.navbar-brand{
+    padding-left: 150px;
+    color: #fff;
+    transition: background 1.3s ease-in 0s;
+}
+.navbar-brand:hover{
+    background-color: rgba(255,255,255,0.9);
+    color: #fff;
+    text-shadow: 2px 1px #000;
+}
+.navbar-fixed-top{
+    background-color: rgba(0,0,0,0.7);
+}
+
+/* home page jumbotron */
+.transparent-jumbo{
+    background-color: transparent;
+    color: #fff;
+}
+#home-logo, #text-box-image{
+    width: 100%;
+    position: relative;
+}
+#moreinfo{
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    background-color: transparent;
+
+}
+#moreinfo a{
+    color: #fff;
+}
+.btn{
+    background-color: rgba(0,0,0,0.9);
+}
+#listenbtn, #listenbtn a{
+    background-color: transparent;
+    color: #000;
+}
+#listenbtn{
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+}
+
+/* home page articles */
+.article-box{
+    color: #fff;
+    padding: 10px;
+}
+.article-box p, .article-box h2{
+    text-shadow: 1px 1px rgba(255,255,255,0.5);
+    padding: 20px;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 1px 1px 5px rgba(255,255,255,0.5);
+    margin-bottom: 30px;
+}
+.article-box p{
+    margin: 10px;
+}
+.thumb-art{
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 20px;
+}
+
+/* animation effects */
+.blur{
+    opacity: 0.5;
+}
+.visibility{
+    visibility: hidden;
+}
+.bottom-border{
+    border-bottom: 5px solid rgba(83,45,80,0.7);
+}
+.white-backg{
+    background-color: #fff;
+}
+
+/* contact page flex box */
+#contact-flex-box{
+    flex-direction: row;
+
+}
+.contact-content-box h2{
+    text-shadow: 1px 1px rgba(255,255,255,0.5);
+    padding: 10px;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 1px 1px 5px rgba(255,255,255,0.5);
+    margin-bottom: 30px;
+}
+.contact-content-box p{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 1px 1px 5px rgba(255,255,255,0.5);
+}
+
+.contact-content-box{
+
+}
+.custom-hr{
+    height: 6px;
+    background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-control{
+    background-color: rgba(0,0,0,0.7);
+    border: none;
+    box-shadow: 1px 1px 5px rgba(255,255,255,0.5);
+}
+
+/* About tabbed content */
+.tab-content{
+    margin-left: 20px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+.tab-content p, .tab-content h2{
+    padding: 20px;
+    background-color: rgba(0,0,0,0.7);
+}
+.nav-pills>li>a{
+    background-color: rgba(0,0,0,0.5);
+    color:#fff;
+    font-size: 2em;
+    text-shadow: 1px 1px rgba(0,0,0,0.5);
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.nav-pills li a:hover{
+    background-color: rgba(255,255,255,0.4);
+    color: #000;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 1px 1px 5px rgba(255,255,255,0.5);
+}
+
+/* music player */
+#musicplayer{
+
+}
+audio{
+    background-color: rgba(0,0,0,0.9);
+    color: blue;
+}
+
+/* footer */
+footer{
+    margin-top: 40px;
+    padding: 40px;
+}
+
+/* audio player */

@@ -1,0 +1,21 @@
+{
+  "name": "StreamOne",
+  "homepage": "https://github.com/PaulMFleming/PaulMFleming.github.io",
+  "authors": [
+    "Paul M Fleming <paul.stillbreathing@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "AniJS": "anijs#^0.9.3",
+    "bootstrap": "^3.3.7"
+  }
+}

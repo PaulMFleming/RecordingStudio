@@ -2,10 +2,21 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Diagnostic Records Releases</title>
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+
+    <script src="/audiojs/audiojs/audio.min.js"></script>
+    <script type="text/javascript" src="js/myplaylist.js"></script>
+    <script>
+  audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
+</script>
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar navbar-fixed-top">
@@ -19,15 +30,16 @@
             <li><a href="contact.html">CONTACT</a></li>
         </ul>
     </nav>
+    <!-- custom-hr -->
+    <div class="custom-hr top-padding"></div>
 
     <!-- Audio Player -->
-    <div class="container top-padding">
-        <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/229878199&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/261201331&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/261201323&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-    </div>
+    <audio src="/audio/theboxPart1.mp3" preload="auto" ></audio>
 
 
+
+<!-- footer -->
+    <footer class="custom-hr"> Copyright Diagnostic Records 2016</footer>
 </body>
     <!--add bootstrap js after the body to help loading times-->
     <script src='http://code.jquery.com/jquery.min.js'></script>
