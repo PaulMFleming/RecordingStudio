@@ -1,0 +1,28 @@
+body{
+    padding-top: 0px; /* reset padding from default player style */
+}
+div#small-player{
+
+}
+#audio-container{
+    margin: 20px auto;
+}
+
+/* Small Player */
+div#small-player{
+    width: 390px;
+    height: 65px;
+    background-color: rgba(0,0,0,0.9);
+    margin: auto;
+    z-index: 99999;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+
+.album-art{
+    width: 100%;
+    height: 100%;
+}

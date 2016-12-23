@@ -32,6 +32,21 @@ $(document).ready(function(){
     });
 
 /* audio player */
-
+    $("#box1").click(function(){
+        $("audio").attr("src","/audio/theboxPart1.mp3");
+        $("#audiojs_wrapper0").removeClass("playing");
+    });
+    $("#box2").click(function(){
+        $("audio").attr("src","/audio/theboxPart2.mp3");
+        $("#audiojs_wrapper0").removeClass("playing");
+    });
+    $("#levee").click(function(){
+        $("audio").attr("src","/audio/leveebreaks.mp3");
+        $("#audiojs_wrapper0").removeClass("playing");
+    });
+    $("#goodbad").click(function(){
+        $("audio").attr("src","/audio/goodbadugly.mp3");
+        $("#audiojs_wrapper0").removeClass("playing");
+    });
 
 });

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Diagnostic Records Releases</title>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+     <script type="text/javascript" src="audio-player/audio-player.js"></script>
+        <script type="text/javascript">
+            AudioPlayer.setup("audio-player/player.swf", {
+                width: 290
+            });
+        </script>
+
+    <script src="/audiojs/audiojs/audio.min.js"></script>
+    <script type="text/javascript" src="js/myplaylist.js"></script>
+    <script>
+  audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
+</script>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar navbar-fixed-top">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">DIAGNOSTIC RECORDS</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/about.html">ABOUT</a></li>
+            <li><a href="/releases/releases.html">RELEASES</a></li>
+            <li><a href="/contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <!-- custom-hr -->
+    <div class="custom-hr top-padding"></div>
+
+    <div id="hopeplayer"></div>
+   <!-- <script type="text/javascript">
+        AudioPlayer.embed("audioplayer_1", {soundFile: "https://youtu.be/6dkqVj7heiA"});
+        </script>
+
+        <p id="audioplayer_2">Alternative content</p>
+        <script type="text/javascript">
+        AudioPlayer.embed("audioplayer_2", {soundFile: "audio/theboxPart1.mp3, audio/theboxPart2.mp3, audio/leveebreaks.mp3, audio/goodbadugly.mp3"});
+        </script> -->
+
+    <!-- Audio Player -->
+    <audio src="/audio/theboxPart1.mp3" preload="auto" id="box1-player"></audio>
+    <audio src="/audio/theboxPart2.mp3" preload="auto" id="box2-player"></audio>
+
+    <div class="playlist-area">
+        <h3 id="box1">THE BOX PART ONE</h3>
+        <h3 id="box2">THE BOX PART TWO</h3>
+        <h3 id="levee">WHEN THE LEVEE BREAKS</h3>
+        <h3 id="goodbad">THE GOOD THE BAD AND THE UGLY</h3>
+    </div>
+
+
+
+<!-- footer -->
+    <footer class="custom-hr"> Copyright Diagnostic Records 2016</footer>
+</body>
+    <!--add bootstrap js after the body to help loading times-->
+    <script src='http://code.jquery.com/jquery.min.js'></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</html>
