@@ -48,9 +48,10 @@ table {
 }
 
 /*
-	Body
+    Body
 */
 body{
+   /*background-color: #0B4C63; */
     padding-top: 100px;
 }
 /*
@@ -64,23 +65,24 @@ div.hidden-on-collapse{
     Top Header
 */
 div#top-header{
-    background-color: rgba(0,0,0,0.9);
-    width: 390px;
-    height: 60px;
+    background-color: #f2f2f2;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 370px;
+    height: 40px;
     margin: auto;
     text-align: center;
     line-height: 20px;
+    padding-top: 10px;
     position: relative;
-    margin-top: 0px;
-    z-index: 1;
-
+    margin-bottom: -50px;
 }
 
 /*
     Large album container
 */
 div#top-large-album{
-    width: 390px;
+    width: 370px;
     height: 370px;
     margin: auto;
     z-index: 0;
@@ -90,17 +92,19 @@ div#top-large-album{
     Large Album Art
 */
 img#large-album-art{
-    width: 390px;
+    width: 370px;
     height: 370px;
+    border-radius: 5px;
 }
 
 /*
-	Small Player
+    Small Player
 */
 div#small-player{
-	width: 390px;
-	height: 60px;
-	background-color: #f2f2f2;
+    width: 370px;
+    height: 45px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
     margin: auto;
     z-index: 99999;
     position: relative;
@@ -145,8 +149,9 @@ div.small-player-toggle-contract{
     Small Player Album Art
 */
 img#small-player-album-art{
-    width: 390px;
-    height: 390px;
+    width: 45px;
+    height: 45px;
+    float: left;
 }
 
 /*
@@ -217,7 +222,7 @@ div#toggle-playlist-full{
 */
 div#small-player-full-bottom{
     padding-top: 5px;
-    margin-top: -60px;
+    margin-top: -45px;
 }
 
 /*
@@ -226,7 +231,6 @@ div#small-player-full-bottom{
 div#small-player-full-bottom-controls{
     width: 72px;
     margin: auto;
-    margin-top: -60px;
 }
 
 /*
@@ -235,7 +239,7 @@ div#small-player-full-bottom-controls{
 div#small-player-full-bottom-info{
     margin: auto;
     margin-top: -7px;
-    width: 390px;
+    width: 350px;
     clear: both;
 }
 div#small-player-full-bottom-info span.current-time{
@@ -370,14 +374,15 @@ div#song-time-visualization-large div.amplitude-song-time-visualization-status{
     Now Playing Information
 */
 div.now-playing-title{
-    font-family: 'Oswald', sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     font-size: 12px;
-    color: #fff;
+    color: #676261;
     line-height: 14px;
 }
 div.album-information{
-    font-family: 'Oswald', sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
     font-size: 12px;
     color: #bebebe;
 }
@@ -410,19 +415,18 @@ div#small-player-playlist{
     margin: auto;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color: rgba(0,0,0,0.7);
+    background-color: #f4f4f4;
     padding-top: 15px;
     height: 200px;
-    overflow-y: scroll;
-    display: none;
+   /* overflow-y: scroll;
+    display: none; */
 }
 div.information{
     padding: 0px 20px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     font-size: 20px;
-    color: #fff;
-    text-shadow: 1px 1px rgba(0,0,0,0.5);
+    color: #676261;
 }
 /*
     Playlist Items
@@ -433,7 +437,7 @@ div.playlist-item{
     clear: both;
 }
 div.playlist-item.amplitude-active-song-container{
-    background-color: rgba(255,255,255,0.5);
+    background-color: #eee;
 }
 div.playlist-item img.album-art{
     width: 45px;
